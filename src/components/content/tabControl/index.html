@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="BIG5">
+<title>時間的流逝 </title>
+<script>
+//定義一個函數來顯示當前時間
+function displayTime(){
+	var elt =document.getElementById("clock");
+	var now=new Date();
+	elt.innerHTML=now.toLocaleTimeString();
+	setTimeout(displayTime,1000);
+}
+window.onload=displayTime;
+</script>
+<style>
+#clock{
+    font:bold 24pt sans;
+    background:#ddf;
+    padding:10px;
+    border:solid black 2px;
+    border-radius:10px;
+}
+</style>
+</head>
+<body>
+<h1>计时器</h1>
+<span id="clock"></span>
+</body>
+</html>

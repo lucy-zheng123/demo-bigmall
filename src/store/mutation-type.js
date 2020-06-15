@@ -1,0 +1,6 @@
+export const ADD_COUNT = 'add_count'
+export const ADD_PRODUCT = 'add_product'
+export const PRO_COUNT_INCREMENT = 'proCountIncrement'
+export const PRO_COUNT_DECREMENT = 'proCountDecrement'
+export const CHANGE_PRO_STATUS = 'changeProStatus'
+export const CHECK_ALL_PRODUCT = 'checkAllProduct'
